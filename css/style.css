@@ -1,0 +1,29 @@
+/*====== RESET ======*/
+* {margin: 0; padding: 0; font-size: 100%;  box-sizing: border-box; 
+font-family: 'Lato', sans-serif;}
+body {width: 100%; height: auto;}
+img {max-width: 100%;}
+
+form { width: 96%; max-width: 600px; margin: 0 auto; text-align: center; }
+
+form fieldset { padding-left: 40px; }
+
+form legend { font-size: 2em; color: #333; font-weight: bold; text-transform: uppercase; 
+text-align: left; }
+
+form input[type=text]{ display: inline-block; margin-top: 30px; width: calc(80% + 26px); padding: 10px 14px; }
+
+form input[type=text]:focus { background-color: #3333; border: 1px solid #000; outline: 0; }
+
+form select { width: calc(80% + 26px); margin-top:38px; padding: 10px 13px; display: inline-block;  }
+
+form select:hover {background-color: #3333;}
+
+form h2 { margin-top: 20px; font-size: 1.5em; }
+
+.input { text-align: left; margin-top: 20px; display: inline-block; font-size: 1em;  }
+
+form textarea { margin-top: 30px; width: 80%; border: 1px solid #333; padding: 10px 13px; resize: none; height: 140px; }
+form textarea:focus { outline: 0; }
+form input[type=submit] { margin-top: 30px; border:0; background-color: #333; color: #fff; font-size: 1em;
+width: 140px; height: 40px; cursor: pointer; }
